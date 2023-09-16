@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+// Break Point
+$break-xl: 1349px;
+$break-lg: 1279px;
+$break-md: 1151px;
+$break-sm: 991px;
+$break-xs: 767px;
+$break-xxs: 599px;
+$break-xxxs: 480px;
+$break-xxxxs: 370px;
+
+//font family
+$ff-montserrat:'Montserrat', sans-serif;
+
+// theme colors
+$color-white:rgb(255, 255, 255);
+$color-primary:rgb(36, 136, 201);
+$color-primary-dark:rgb(23, 115, 177);
+$color-secondary:rgb(255, 90, 95);
+$color-secondary-dark:rgb(226, 67, 72);
+$color-tertiary:rgb(231, 236, 239);
+
+// neutral colors
+$color-neutral:rgb(0, 0, 0);
+$color-neutral-9:lighten($color-neutral,10%);     // #1a1a1a
+$color-neutral-8:lighten($color-neutral,20%);     // #333333
+$color-neutral-7:lighten($color-neutral,30%);     // #4d4d4d
+$color-neutral-6:lighten($color-neutral,40%);     // #666666
+$color-neutral-5:lighten($color-neutral,50%);     // #808080
+$color-neutral-4:lighten($color-neutral,60%);     // #999999
+$color-neutral-3:lighten($color-neutral,70%);     // #b3b3b3
+$color-neutral-2:lighten($color-neutral,80%);     // #cccccc
+$color-neutral-1:lighten($color-neutral,90%);     // #e5e5e5 
+$color-neutral-05:lighten($color-neutral,95%);    // #f0f0f0
+$color-neutral-04:lighten($color-neutral,96%);    // #f5f5f5
+$color-neutral-03:lighten($color-neutral,97%);    // #f7f7f7
+
+// shadows
+
+$shadow-1:0 8px 10px 0 rgba(0,0,0,.04);

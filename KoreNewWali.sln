@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "KoreNewWali", ".", "{86204924-BE00-484A-BAA8-ADF9C0DA4669}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.8"
+		ProjectReferences = "{c8ee7221-a66e-4d28-a46d-6d372d65cc31}|BuisnessLayer.dll;{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}|DataAccessLayer.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/KoreNewWali"
+		Debug.AspNetCompiler.PhysicalPath = "..\koreautomation\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\KoreNewWali\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/KoreNewWali"
+		Release.AspNetCompiler.PhysicalPath = "..\koreautomation\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\KoreNewWali\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51536"
+		SlnRelativePath = "..\koreautomation\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccessLayer", "..\DataAccessLayer\DataAccessLayer.csproj", "{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BuisnessLayer", "..\BuisnessLayer\BuisnessLayer.csproj", "{C8EE7221-A66E-4D28-A46D-6D372D65CC31}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86204924-BE00-484A-BAA8-ADF9C0DA4669}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{86204924-BE00-484A-BAA8-ADF9C0DA4669}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{86204924-BE00-484A-BAA8-ADF9C0DA4669}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{86204924-BE00-484A-BAA8-ADF9C0DA4669}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0673E4C-6610-4BB9-941A-21D23DE8A8B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8EE7221-A66E-4D28-A46D-6D372D65CC31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8EE7221-A66E-4D28-A46D-6D372D65CC31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8EE7221-A66E-4D28-A46D-6D372D65CC31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8EE7221-A66E-4D28-A46D-6D372D65CC31}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8FFBAE44-67BB-479F-80DC-6532EEE098F6}
+	EndGlobalSection
+EndGlobal
